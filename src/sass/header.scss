@@ -1,0 +1,58 @@
+
+.header{
+    position: fixed;
+    top: 0;
+
+    min-width: 320px;
+    padding-top: 5px;
+
+    background-color: #F6752C;
+    background-image: linear-gradient(337deg, rgba(242, 120, 5, 1) 0%, rgba(245, 253, 45, 1) 100%);
+}
+
+
+.header-menu-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header-logo-menu-wrapper{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.header-logo-text{
+    font-family: 'Gluten', cursive;
+    font-size: 24px;
+    color:rgb(255,255,255, 0.8) 
+}
+
+.header-nav-wrapper{
+    display:none;
+}
+
+.menu-list{
+    display: flex;
+    gap: 4px;
+}
+
+.contacts-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mobile-modal-btn{
+    width:30px;
+    height:30px;
+
+    border: none;
+    background-color: transparent;
+    fill: rgb(255, 255,255, 0.8)
+}
+
