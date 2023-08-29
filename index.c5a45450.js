@@ -1,0 +1,2 @@
+const t={containerEl:document.querySelector(".contacts-mob-container"),openBtn:document.querySelector(".contacts-btn"),closeBtn:document.querySelector(".close-contacts-btn")},{containerEl:e,openBtn:n,closeBtn:c}=t;n.addEventListener("click",(function(){e.classList.toggle("is-hidden")})),c.addEventListener("click",(function(){e.classList.toggle("is-hidden")})),e.addEventListener("click",closeContactsByClick);
+//# sourceMappingURL=index.c5a45450.js.map

@@ -1,2 +1,0 @@
-const e={mobileContainer:document.querySelector(".mobile-menu-container"),closeBtn:document.querySelector(".close-mob-menu-btn"),openBtn:document.querySelector(".mobile-modal-btn")},{mobileContainer:o,openBtn:n,closeBtn:t}=e;n.addEventListener("click",(function(e){o.classList.toggle("is-hidden"),console.log("Open mob")})),t.addEventListener("click",(function(e){console.log("Close mob"),o.classList.toggle("is-hidden")}));
-//# sourceMappingURL=index.798a1a55.js.map
