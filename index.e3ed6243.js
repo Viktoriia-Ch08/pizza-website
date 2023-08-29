@@ -1,0 +1,2 @@
+!function(){var n={containerEl:document.querySelector(".contacts-mob-container"),openBtn:document.querySelector(".contacts-btn"),closeBtn:document.querySelector(".close-contacts-btn")},t=n.containerEl,e=n.closeBtn;n.openBtn.addEventListener("click",(function(){t.classList.toggle("is-hidden")})),e.addEventListener("click",(function(){t.classList.toggle("is-hidden")}))}();
+//# sourceMappingURL=index.e3ed6243.js.map
