@@ -8,13 +8,18 @@ const { mobileContainer, openBtn, closeBtn } = refs;
 
 openBtn.addEventListener('click', openMobModal);
 closeBtn.addEventListener('click', closeMobMenu);
+mobileContainer.addEventListener('click', closeMobMenuByLink);
 
-function openMobModal(event) {
+function openMobModal() {
   mobileContainer.classList.toggle('is-hidden');
-  console.log('Open mob');
 }
 
-function closeMobMenu(event) {
-  console.log('Close mob');
+function closeMobMenu() {
   mobileContainer.classList.toggle('is-hidden');
+}
+
+function closeMobMenuByLink(event) {
+  if (event.target.nodeName === 'A') {
+    closeMobMenu();
+  }
 }
