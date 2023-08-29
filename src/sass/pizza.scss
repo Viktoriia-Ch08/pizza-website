@@ -1,0 +1,83 @@
+.pizza-sec{
+    background-image: linear-gradient(337deg, rgba(242, 120, 5, 0.7) 0%, rgba(245, 253, 45, 0.7) 100%);
+}
+
+.pizza-wrapper{
+    width: 320px;
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pizza-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pizza-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    margin-bottom: 20px;
+    padding: 10px 20px;
+
+    box-shadow: 0 1px 10px #f28a02;
+}
+
+.pizza-text{
+    text-align: center;
+}
+
+.quantity-price-wrap{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+
+.counter-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.increment, .decrement{
+    width: 30px;
+    height: 30px;
+
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+
+    
+    border: 1px solid rgba(242, 120, 5, 0.5);
+    border-radius: 50%;
+    background-color: rgba(242, 120, 5, 0.5);
+    color: rgb(255, 255, 255, 0.8);
+
+}
+
+.price{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.pizza-btn{
+    width:150px;
+    height: 40px;
+
+    font-family: 'Gluten', cursive, sans-serif;
+    font-size: 24px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255, 0.8);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+*:disabled {
+    background-color: dimgrey;
+    color: linen;
+    opacity: 1;
+}

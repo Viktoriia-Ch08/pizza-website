@@ -1,6 +1,10 @@
+@import './common';
 @import './header';
+@import './pizza.scss';
 @import './mobile-menu';
 @import './contacts-mob';
+@import './cart.scss';
+@import './cart-btn.scss';
 
 :root {}
 
@@ -47,7 +51,11 @@ body{
 
 .container {
     min-width: 320px;
-    width: 100%;
+    max-width: 448px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.section {
+    padding: 0;
 }

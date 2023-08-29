@@ -8,7 +8,6 @@ const { containerEl, openBtn, closeBtn } = refs;
 
 openBtn.addEventListener('click', openContacts);
 closeBtn.addEventListener('click', closeContacts);
-containerEl.addEventListener('click', closeContactsByClick);
 
 function openContacts() {
   containerEl.classList.toggle('is-hidden');
